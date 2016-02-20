@@ -1,0 +1,31 @@
+{
+  "Records": [
+    {
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:EXAMPLE",
+      "EventSource": "aws:sns",
+      "Sns": {
+        "SignatureVersion": "1",
+        "Timestamp": "1970-01-01T00:00:00.000Z",
+        "Signature": "EXAMPLE",
+        "SigningCertUrl": "EXAMPLE",
+        "MessageId": "aaaaaaaa-ee98-5cb9-dddd-4c221d41eb5e",
+        "Message": "{\"StatusCode\":\"InProgress\",\"Service\":\"AWS Auto Scaling\",\"AutoScalingGroupName\":\"personal-blog\",\"Description\":\"Launching a new EC2 instance: i-6dc0d8e8\",\"ActivityId\":\"aaaaaaaa-2a44-4037-cccc-b3bc439c1947\",\"Event\":\"autoscaling:EC2_INSTANCE_LAUNCH\",\"Details\":{\"Availability Zone\":\"us-east-1d\",\"Subnet ID\":\"subnet-111eeb54\"},\"AutoScalingGroupARN\":\"arn:aws:autoscaling:us-east-1:669437759610:autoScalingGroup:357fdd61-dc1a-44d5-ba94-fdc0d0d6069f:autoScalingGroupName/personal-blog\",\"Progress\":50,\"Time\":\"2016-02-18T11:48:47.147Z\",\"AccountId\":\"000437759999\",\"RequestId\":\"aaaaaaaa-2a44-4037-bbbb-b3bc439c1947\",\"StatusMessage\":\"\",\"EndTime\":\"2016-02-18T11:48:47.147Z\",\"EC2InstanceId\":\"i-abcdd8e8\",\"StartTime\":\"2016-02-18T11:47:44.622Z\",\"Cause\":\"At 2016-02-18T11:47:16Z a user request update of AutoScalingGroup constraints to min: 1, max: 2, desired: 2 changing the desired capacity from 1 to 2. At 2016-02-18T11:47:42Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 1 to 2.\"}",
+        "MessageAttributes": {
+          "Test": {
+            "Type": "String",
+            "Value": "TestString"
+          },
+          "TestBinary": {
+            "Type": "Binary",
+            "Value": "TestBinary"
+          }
+        },
+        "Type": "Notification",
+        "UnsubscribeUrl": "EXAMPLE",
+        "TopicArn": "arn:aws:sns:EXAMPLE",
+        "Subject": "TestInvoke"
+      }
+    }
+  ]
+}

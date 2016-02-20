@@ -1,0 +1,18 @@
+{
+  "name": "Route53-ASG-Update",
+  "version": "0.0.1",
+  "description": "updates a Route53 entry based on ASG updates.",
+  "main": "index.js",
+  "author": "gburgett",
+  "license": "none",
+  "scripts": {
+    "setup": "node-lambda setup",
+    "run": "node-lambda run",
+    "deploy": "node-lambda deploy"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "aws-sdk": "^2.2.36",
+    "https": "^1.0.0"
+  }
+}
